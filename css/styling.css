@@ -1,0 +1,422 @@
+body,html{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-color: white;
+}
+
+.journey{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    align-items: center;
+}
+.options ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-right: 120px;
+    align-items: center;
+    margin: auto;
+    
+}
+.options ul li{
+    list-style: none;
+    align-items: center;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 15px;
+    font-size: 13px;
+}
+.options li:hover{
+    color:#69C6BA;
+    transition: 0.5s;
+}
+#active{
+    color: #69C6BA;
+}
+#button1:hover{
+    color: #69C6BA;
+}
+#logo{
+    margin: auto;
+}
+.body{
+    background-color: #E6E6E6;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    width: 1400px;
+    height: 720px;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0.5)),  url("../images/banner.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #E6E6E6;
+}
+.letsbegin{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+}
+.assist{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.form{
+    height: 230px;
+    background-color: #F5F6F6;
+    align-items: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 25px;
+    padding-bottom: 15px;
+    margin: auto;
+    width: 830px;
+    display: block;
+}
+.row-1{
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.labels{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.data{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color:#F5F6F6;
+    font-size: 12.8px;
+    height: 45px;
+    padding: 0.75rem;
+}
+.data:active{
+    border: #69C6BA solid 0.5;
+    box-shadow:0 0 0 0.1rem #69C6BA;
+}
+#inputdes{
+    height: 45px;
+    width: 200px;
+    border: none;
+    background-color:#F5F6F6;
+
+}
+.row-2{
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 30px;
+}
+.button_hold{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    background-color: #69C6BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: auto;
+}
+.button_hold:hover{
+    background-color: pink;
+    transition: 0.5s;
+}
+.button_hold:hover{
+    background-color: #C66995;
+}
+.headline_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avail{
+    border: none;
+    background-color: #69C6BA;
+    height: 45px;
+    width: 500px;
+    color: white;
+    align-items: center;
+    font-size: small;
+    margin-top: 30px;
+}
+.avail:hover{
+    background-color: #C66995;
+}
+.journey-priority{
+    max-height: 260px;
+    width: 1400px;
+    background-color: #EFEFEF;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.h2{
+    margin: 0px;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;;
+}
+.explore{
+    border: none;
+    background-color: #69C6BA;
+    height: 45px;
+    width: 170px;
+    color: white;
+    align-items: center;
+    font-size: small;
+    margin-top: 10px;
+}
+.explore:hover{
+    background-color: #C66995;
+}
+.country{
+    height: 500px;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    background-color: white;
+}
+.img{
+    height: 100%;
+    width: 50%;
+}
+.bigger-box{
+    height: 100%;
+    width: 50%;
+}
+.countries{
+    height: 180px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #69C6BA;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-weight: normal;
+    color: white;
+}
+.countries ul{
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0em;
+}
+.countries ul li{
+    width: 200px;
+    text-align: center;
+    padding: 30px 25px;
+    font-size: 0.9rem;
+    margin: auto;
+    flex: 1 1 auto;
+}
+.countries ul li:hover,.countries ul li.active{
+    background-color: #C66995;
+    transition: 0.5s;
+    width: 200px;
+    margin: 0rem;
+}
+.small-left-box{
+    height: 260px;
+    width: 670px;
+    background-color: #69C6BA;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: -45px;
+    padding: 50px;
+    text-align: left;
+}
+.small-right-box{
+    height: 260px;
+    width: 670px;
+    background-color: #C66995;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 75px;
+    padding: 50px;
+    text-align: left;
+}
+.box-heading{
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: left;
+}
+.para{
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+}
+.reading-left{
+    border: none;
+    background-color: white;
+    height: 45px;
+    width: 170px;
+    color: #69C6BA;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.reading-left:hover{
+    background-color: #C66995;
+    color: white;
+}
+.reading-right{
+    border: none;
+    background-color: white;
+    height: 45px;
+    width: 170px;
+    color: #C66995;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.reading-right:hover{
+    background-color: #69C6BA;
+    color: white;
+}
+.resort-options-outer-bigger-box{
+    height: 990px;
+    width: 1400px;
+    background-color: white;
+    margin: auto;
+}
+.shadow{
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    width: 1400px;
+    margin: auto;
+}
+.resort-options-outer-box{
+    margin: auto;
+    height: 855px;
+    width: 970px;
+    padding-top: 60px;
+}
+.resort-description-box{
+    height: 180px;
+    width: 500px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    padding: 30px;
+    text-align: left;
+}
+.resort-img{
+    height: 180px;
+    width: 270px;
+}
+.resort-options-smaller-box{
+    width: 970px;
+    height: 180px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.resort-option-title{
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.resort-highlight{
+    color: #C66995;
+    margin-bottom: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+.resort-description{
+    color: rgb(120, 118, 118);
+    font-size: 13px;
+    font-weight: 300;
+}
+.price-box{
+    padding-left: 20px;
+    width: 200px;
+    background-color: #69C6BA;
+    justify-content: center;
+    background-image: url(../images/button-curve.png);
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.price-box:hover{
+    background-color: #C66995;
+    transition: all ease 0.3s;
+    color: white;
+    text-decoration: none;
+}
+.price{
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.price-link{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 10px;
+}
+.centre-button{
+    display: flex;
+    margin-top: 25px;
+}
+.show-more-places{
+    border: none;
+    background-color: #69C6BA;
+    height: 45px;
+    width: 170px;
+    color: white;
+    font-size: small;
+    margin: auto;
+}
+.show-more-places:hover{
+    background-color: #C66995;
+}
+.map{
+    height: 600px;
+    width: 1400px;
+    background-color: black;
+    margin: auto;
+}
+footer{
+    height: 100px;
+    width: 1400px;
+    margin: auto;
+    background-color: #69C6BA;
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 19.2px;
+}
